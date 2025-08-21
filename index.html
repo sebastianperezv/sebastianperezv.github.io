@@ -661,6 +661,26 @@
                         <a href="https://github.com/sebastianperezv/Job-Interview-Project" target="_blank" class="project-link">View Code</a>
                     </div>
                 </div>
+				<!-- Project 5: Non-linear Classification -->
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-icon">🎯</div>
+                        <h3>nonlinear_classifier()</h3>
+                    </div>
+                    <p>// Solved non-linear classification problem using neural networks<br>
+                    // Dataset: Scikit-learn make_circles data<br>
+                    // Architecture: Multi-layer with ReLU activation</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Neural Networks</span>
+                        <span class="project-tag">ReLU</span>
+                        <span class="project-tag">Google Colab</span>
+                        <span class="project-tag">Scikit-learn</span>
+                        <span class="project-tag">Non-linear</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/sebastianperezv/make-circles-dataset" target="_blank" class="project-link">View Code</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -763,29 +783,6 @@
                 header.style.borderBottomColor = 'rgba(0, 255, 155, 0.2)';
             }
         });
-        // Contact form submission (removed, but keeping the function for reference if needed elsewhere)
-        // document.querySelector('.contact-form').addEventListener('submit', function(e) {
-        //     e.preventDefault();
-        //     const formData = new FormData(this);
-        //     const name = formData.get('name');
-        //     const email = formData.get('email');
-        //     const message = formData.get('message');
-        //     if (!name || !email || !message) {
-        //         alert('// Error: All fields required');
-        //         return;
-        //     }
-        //     const submitBtn = this.querySelector('.submit-btn');
-        //     const originalText = submitBtn.textContent;
-        //     submitBtn.textContent = 'Executing...';
-        //     submitBtn.disabled = true;
-        //     setTimeout(() => {
-        //         alert('// Success: Message transmitted successfully!');
-        //         this.reset();
-        //         submitBtn.textContent = originalText;
-        //         submitBtn.disabled = false;
-        //     }, 2000);
-        // });
-        // Add typing effect to hero
         function typeWriter(element, text, speed = 100) {
             let i = 0;
             element.innerHTML = '';
